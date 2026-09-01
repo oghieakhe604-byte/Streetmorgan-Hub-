@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streetmorgan Hub</title>
+  <meta name="description" content="Streetmorgan Hub - Digital advertising, business growth and social media services.">
+</head>
+
+<body>
+  <header>
+    <h1>Streetmorgan Hub</h1>
+    <p>Digital Growth • Advertising • Business Support</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Grow Your Business With Streetmorgan Hub</h2>
+      <p>
+        We help local businesses get more visibility, customers and opportunities
+        through digital advertising and business support.
+      </p>
+
+      <a href="https://forms.gle/LzzoKJQKcGq15tqV8">
+        Get Started
+      </a>
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+
+      <h3>📢 Business Advertising</h3>
+      <p>Promote your business and reach more potential customers.</p>
+
+      <h3>📱 Social Media Growth</h3>
+      <p>Build a stronger online presence and connect with your audience.</p>
+
+      <h3>🤝 Business Promotion</h3>
+      <p>Get your products and services in front of potential buyers.</p>
+
+      <h3>🔐 Social Media Security</h3>
+      <p>Practical guidance to help businesses protect their online accounts.</p>
+    </section>
+
+    <section>
+      <h2>Ready to Grow?</h2>
+      <p>Complete our client onboarding form and let's get started.</p>
+
+      <a href="https://forms.gle/LzzoKJQKcGq15tqV8">
+        Join Streetmorgan Hub
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Streetmorgan Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
