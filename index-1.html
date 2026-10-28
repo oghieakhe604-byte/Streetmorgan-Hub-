@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Streetmorgan Hub | Get Seen. Get Enquiries. Get Results.</title>
+  <meta name="description" content="Streetmorgan Hub helps small businesses promote their products and services, improve their online presence, and attract customer enquiries.">
+  <meta name="theme-color" content="#102a43">
+  <style>
+    :root { --navy:#102a43; --blue:#1769aa; --cyan:#e8f5ff; --ink:#203040; --muted:#526579; --white:#fff; --line:#d9e4ee; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink); line-height:1.6; background:#f7fafc; }
+    a { color:inherit; }
+    .wrap { width:min(1100px,92%); margin:auto; }
+    header { background:var(--navy); color:var(--white); padding:17px 0; }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+    .brand { font-size:1.2rem; font-weight:800; letter-spacing:.2px; }
+    .nav a { text-decoration:none; font-weight:700; margin-left:15px; font-size:.95rem; }
+    .hero { background:linear-gradient(135deg,#102a43,#1769aa); color:white; padding:72px 0 66px; }
+    .hero-grid { display:grid; grid-template-columns:1.4fr .8fr; gap:35px; align-items:center; }
+    .eyebrow { text-transform:uppercase; letter-spacing:2px; font-size:.78rem; font-weight:800; color:#bde5ff; }
+    h1 { font-size:clamp(2.2rem,6vw,4rem); line-height:1.08; margin:12px 0 18px; }
+    .hero p { font-size:1.1rem; max-width:650px; color:#edf7ff; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:26px; }
+    .btn { display:inline-block; border-radius:8px; padding:12px 18px; text-decoration:none; font-weight:800; }
+    .btn-light { background:white; color:var(--navy); }
+    .btn-outline { border:1px solid #d9efff; color:white; }
+    .hero-card { background:white; color:var(--ink); border-radius:16px; padding:24px; box-shadow:0 18px 40px #071b2b44; }
+    .hero-card strong { display:block; font-size:2.3rem; color:var(--blue); line-height:1.2; }
+    section { padding:58px 0; }
+    .section-head { max-width:720px; margin-bottom:28px; }
+    h2 { font-size:clamp(1.7rem,4vw,2.4rem); color:var(--navy); margin:0 0 10px; line-height:1.2; }
+    .muted { color:var(--muted); }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .card { background:white; border:1px solid var(--line); border-radius:13px; padding:23px; }
+    .card h3 { margin:8px 0; color:var(--navy); }
+    .icon { font-size:1.8rem; }
+    .price { color:var(--blue); font-size:1.65rem; font-weight:800; margin:10px 0; }
+    .soft { background:var(--cyan); }
+    .steps { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; counter-reset:step; }
+    .step { background:white; border-radius:12px; padding:22px; border:1px solid var(--line); }
+    .step::before { counter-increment:step; content:counter(step); display:inline-grid; place-items:center; width:34px; height:34px; border-radius:50%; background:var(--blue); color:white; font-weight:800; }
+    .contact-box { background:var(--navy); color:white; border-radius:16px; padding:32px; display:flex; align-items:center; justify-content:space-between; gap:22px; flex-wrap:wrap; }
+    .contact-box h2 { color:white; }
+    footer { background:#081c2c; color:#d9e6f0; padding:24px 0; font-size:.9rem; }
+    footer a { color:white; }
+    @media (max-width:760px) { .hero-grid,.cards,.steps { grid-template-columns:1fr; } .hero { padding:52px 0; } .nav a { margin-left:0; margin-right:12px; } .contact-box { padding:24px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">Streetmorgan Hub</div>
+      <nav aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Digital promotion for growing businesses</div>
+          <h1>Get Seen.<br>Get Enquiries.<br>Get Results.</h1>
+          <p>Streetmorgan Hub helps small businesses present their offers professionally and reach more potential customers through practical online promotion.</p>
+          <div class="actions">
+            <a class="btn btn-light" href="https://wa.me/2348143509074?text=Hello%20Streetmorgan%20Hub%2C%20I%27m%20interested%20in%20your%20services.">Chat with us on WhatsApp</a>
+            <a class="btn btn-outline" href="#services">Explore services</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <div class="eyebrow" style="color:#1769aa">Starter promotion</div>
+          <strong>₦1,000</strong>
+          <p class="muted">A budget-friendly starting point for businesses that want help promoting a product or service.</p>
+          <a class="btn btn-light" style="background:#1769aa;color:white" href="https://wa.me/2348143509074?text=Hello%20Streetmorgan%20Hub%2C%20please%20tell%20me%20about%20the%20Starter%20Promotion%20for%20%E2%82%A61%2C000.">Ask about this offer</a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Services to help you move forward</h2>
+          <p class="muted">Clear, accessible support for small businesses, job seekers, and creators. Contact us to confirm scope, timing, and availability before payment.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="icon" aria-hidden="true">📣</div>
+            <h3>Business Promotion</h3>
+            <p class="muted">Promotion support for products, services, offers, and local businesses.</p>
+            <div class="price">From ₦1,000</div>
+            <a class="btn btn-light" style="background:#e8f5ff;color:#102a43" href="https://wa.me/2348143509074?text=Hello%2C%20I%20want%20to%20promote%20my%20business.">Request details</a>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">📝</div>
+            <h3>CV Creation</h3>
+            <p class="muted">Help preparing a clear, professional CV for job applications.</p>
+            <div class="price">From ₦1,500</div>
+            <a class="btn btn-light" style="background:#e8f5ff;color:#102a43" href="https://wa.me/2348143509074?text=Hello%20Streetmorgan%20Hub%2C%20I%20need%20help%20creating%20a%20CV.">Request a CV</a>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">📱</div>
+            <h3>Social Media Support</h3>
+            <p class="muted">Practical support with promotional content and presenting your offer online.</p>
+            <div class="price">Ask for a quote</div>
+            <a class="btn btn-light" style="background:#e8f5ff;color:#102a43" href="https://wa.me/2348143509074?text=Hello%20Streetmorgan%20Hub%2C%20I%20need%20social%20media%20support.">Discuss your needs</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="soft">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Simple steps. Clear communication.</h2>
+          <p class="muted">We agree on the service before work begins, so you know what to expect.</p>
+        </div>
+        <div class="steps">
+          <article class="step"><h3>Tell us what you need</h3><p class="muted">Share your business, product, target audience, and goal on WhatsApp.</p></article>
+          <article class="step"><h3>Confirm the plan</h3><p class="muted">We discuss the deliverables, price, timing, and any details needed.</p></article>
+          <article class="step"><h3>Get started</h3><p class="muted">Once the details are agreed, send the required information and follow the agreed process.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact-box">
+          <div>
+            <h2>Ready to promote your offer?</h2>
+            <p>Tell Streetmorgan Hub what you want to achieve. We'll discuss the next step with you.</p>
+            <p><strong>WhatsApp:</strong> +234 814 350 9074</p>
+          </div>
+          <a class="btn btn-light" href="https://wa.me/2348143509074?text=Hello%20Streetmorgan%20Hub%2C%20I%27d%20like%20to%20make%20an%20enquiry.">Send an enquiry</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Streetmorgan Hub</strong> · Get Seen. Get Enquiries. Get Results.
+      <p>We aim to provide professional, practical promotional support. Results depend on factors such as the offer, audience, and platform; specific sales or enquiry numbers are not guaranteed.</p>
+      <p>© <span id="year"></span> Streetmorgan Hub. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
